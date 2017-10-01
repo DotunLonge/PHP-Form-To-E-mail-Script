@@ -8,6 +8,7 @@ probably rename the namespace in the php mailer from src/PHPMailer to whatever i
 
 initialize the class like so:
 
+```php
 @include_once "FormHandler.php";
 
 $handler = new FormHandler;
@@ -23,3 +24,4 @@ viola, you have a working mailer.
 Note: i made this to work only with google mail, so go figure.
 
 thanks for checking it out.
+```
